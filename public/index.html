@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>TpNode07</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:2em;
+      text-align: left; 
+      
+    }
+    
+    nav{
+      background-color: #FAE7D7;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .contenedor{
+      margin-left: 10px;
+      margin-right: 100px;
+
+          }
+    
+    .abajo{
+      margin-left: 10px;
+    }
+
+    button{
+      background-color: #262626; 
+      color: #FAE7D7;
+    }
+    a{
+      color: black;
+    }
+    .form{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 1500px;
+
+    }
+
+    
+  
+   
+   
+    
+     footer {
+      background-color: #262626;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    
+    
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">TpNode07</a>
+    
+  </nav>
+
+<div class="contenedor">
+  <p>Nuestro Presidente tiene algunos números secretos, por lo que, en caso de
+    emergencia, puede usarlo para ponerse en contacto con la SIDE(Servicio
+    Inteligencia Del Estado) y salvarlo. Pero estos números tienen algunas
+    características especiales, son primos y la suma de los dígitos
+    individuales son también primos. Como 23, es el número primo y la suma de
+    sus dígitos (2 + 3) = 5, también es un número primo.</p><br>
+    
+    Así que su tarea es imprimir todos los números en un rango dado, a, b
+    (ambos incluidos), en orden ascendente.
+    Utilizando una función EsPrimo( n)</p><br>
+    Entrada:
+    Formulario que se ingresan contiene dos números enteros a y b
+    respectivamente.</p><br>
+    Salida:
+    Todos los enteros (en un vector) entre a y b (incluidos a y b), que
+    satisfacen las condiciones mencionadas en la declaración, separados por
+    un solo espacio.</p><br>
+    Restricciones:
+    1 <= a, b <= 1000000</p><br>
+    MUESTRA DE ENTRADA</p><br>
+    a 10
+    b 50</p><br>
+    MUESTRA DE SALIDA</p><br>
+    11 23 29 41 43 47</p>
+<form  action="numeropresidente" method="post">
+ <div class="form">
+      <label for="text">  Ingrese el primer número:</label>
+      <input type="text" class="form-control" id="numa" placeholder="Ingrese Número" name="numa">
+	  
+	  <label for="text">  Ingrese el segundo número:</label>
+      <input type="text" class="form-control" id="numb" placeholder="Ingrese Número" name="numb">
+    </div>
+    <button class="btn btn-dark" type="submit" value="Enviar">Enviar</button>
+   
+</form>
+
+<footer class="container-fluid text-center">
+  <p>Copyright © 2020-2021  Hecho por Axel.</p>
+</footer>
+</body>
+
+</html>
